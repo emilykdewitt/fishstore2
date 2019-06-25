@@ -1,0 +1,11 @@
+{
+  "firebaseKeys" : {
+    "apiKey": "AIzaSyBEzglxJyz_Jk7LEiG6b9KATkZ_hmzS_0I",
+    "authDomain": "fishstore-d3537.firebaseapp.com",
+    "databaseURL": "https://fishstore-d3537.firebaseio.com",
+    "projectId": "fishstore-d3537",
+    "storageBucket": "",
+    "messagingSenderId": "492930850304",
+    "appId": "1:492930850304:web:4d10b8acf6d5df4e"
+  }
+}
