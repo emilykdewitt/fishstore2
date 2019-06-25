@@ -2,8 +2,8 @@ import React from 'react';
 import firebase from 'firebase/app';
 
 import Auth from '../components/Auth/Auth';
-import Home from '../components/Home/Home';
 import MyNavbar from '../components/MyNavbar/MyNavbar';
+import Home from '../components/Home/Home'
 
 import './App.scss';
 
@@ -34,7 +34,11 @@ class App extends React.Component {
     const { authed } = this.state;
     const loadComponent = () => {
       if (authed) {
-        return <Home />;
+        return (
+          <div className="home">
+            <Home />
+          </div>
+        )
       }
       return <Auth />;
     };
